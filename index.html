@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://i.ytimg.com/vi/ykwGDFUEzww/maxresdefault.jpg" type="image/x-icon">
+    <title>Random Number Game</title>
+ </head>  
+ <body>
+    <div class="main">
+    <div class="wrapper"> 
+        <h1 ><span >Number Guessing Game</span></h1>
+        <p class="box1"><span>Try and Guess a Random Number Between 1 to 100</span></p>
+        <p class="box1"><span>You Have 10 attempts To Guess The Right Number</span></p>
+    </div>
+    <form>
+        <h3 class="box2 text2">Guess A Number</h3>
+        <input id="input" class="box2" type="text" placeholder="Type Here">
+        <button id="sbt" class="box2" type="submit">Submit Guess</button>
+    </form>
+    <div class="wrapper2">
+     <p class="box3 text">Previous Guesses <i class="fa-solid fa-arrow-right-long"></i> <span id="prevGuess"></span></p>
+    <p class="box3 text">Guess Remaining <i class="fa-solid fa-arrow-right-long"></i> <span id="guessRemaining">10</span></p>
+    <p class="lowOrHigh text box3"></p>
+    <button id="newGame"><span>Start New Game</span></button>
+    </div>
+    </div>
+    
+
+ 
+ </body>
+ <script src="Project4.js"></script>
+ </html>
