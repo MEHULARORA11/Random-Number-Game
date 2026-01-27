@@ -66,7 +66,7 @@ margin: auto;
     
     margin: auto;
     span{
-      color: black;  /*NOTE THIS CRAZY METHOD*/ 
+      color: black; 
       display: inline-block;
       font-size: 1.2rem;
       width: 100px;
@@ -105,10 +105,6 @@ margin: auto;
   gap: 15px;
 }
  
- /* .wrapper p:nth-child(2) span{ POINT TO BE NOTED MY LORD KI ESE LIKHA JAATA HAI KI YAHA p IS NOT A PARENT IT IS A CHILD THIS LINE MEANS INSIDE .wrapper SELECT PARAH ELEMENT WICH IS THE SECOND CHILD */
-    /* background-color: black; */
-    /* margin: auto; */
- /* } */
 @media (max-width:550px){
     .wrapper p:nth-child(2) span{
            display: block;
